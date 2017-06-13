@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weatherdata>
+  <location>
+    <name>Trondheim</name>
+    <type>City - large town</type>
+    <country>Norway</country>
+    <timezone id="Europe/Oslo" utcoffsetMinutes="60" />
+    <location altitude="8" latitude="63.4304873907371" longitude="10.3950612843065" geobase="ssr" geobaseid="211102" />
+  </location>
+  <credit>
+    <!--In order to use the free weather data from yr no, you HAVE to display 
+the following text clearly visible on your web page. The text should be a 
+link to the specified URL.-->
+    <!--Please read more about our conditions and guidelines at http://om.yr.no/verdata/  English explanation at http://om.yr.no/verdata/free-weather-data/-->
+    <link text="Weather forecast from Yr, delivered by the Norwegian Meteorological Institute and the NRK" url="http://www.yr.no/place/Norway/Sør-Trøndelag/Trondheim/Trondheim/" />
+  </credit>
+  <links>
+    <link id="xmlSource" url="http://www.yr.no/place/Norway/Sør-Trøndelag/Trondheim/Trondheim/forecast.xml" />
+    <link id="xmlSourceHourByHour" url="http://www.yr.no/place/Norway/Sør-Trøndelag/Trondheim/Trondheim/forecast_hour_by_hour.xml" />
+    <link id="overview" url="http://www.yr.no/place/Norway/Sør-Trøndelag/Trondheim/Trondheim/" />
+    <link id="hourByHour" url="http://www.yr.no/place/Norway/Sør-Trøndelag/Trondheim/Trondheim/hour_by_hour" />
+    <link id="longTermForecast" url="http://www.yr.no/place/Norway/Sør-Trøndelag/Trondheim/Trondheim/long" />
+    <link id="radar" url="http://www.yr.no/place/Norway/Sør-Trøndelag/Trondheim/Trondheim/radar.html" />
+    <link id="nowcast" url="http://www.yr.no/place/Norway/Sør-Trøndelag/Trondheim/Trondheim/varsel_nu.xml" />
+  </links>
+  <meta>
+    <lastupdate>2017-01-25T03:20:00</lastupdate>
+    <nextupdate>2017-01-25T11:00:00</nextupdate>
+  </meta>
+  <sun rise="2017-01-25T09:12:48" set="2017-01-25T15:49:33" />
+  <forecast>
+    <text>
+      <location name="Trondheim">
+        <time from="2017-01-25" to="2017-01-25">
+          <title>Wednesday</title>
+          <body>&lt;strong&gt;Trøndelag:&lt;/strong&gt; Sørvest opp i sterk kuling på kysten. Litt regn av og til i ytre strok og lengst nord, elles skya eller delvis skya opphaldsver. I kveld aukande nedbør nord for Steinkjer.</body>
+        </time>
+        <time from="2017-01-26" to="2017-01-26">
+          <title>Thursday</title>
+          <body>&lt;strong&gt;Trøndelag:&lt;/strong&gt; Sørvest stiv til sterk kuling utsatte steder. Utover ettermiddagen minkende til sørvest bris, liten kuling på kysten i nord. Frem til kvelden regn nord for Trondheimsfjorden, ellers gradvis lettere vær og lange perioder med sol.</body>
+        </time>
+        <time from="2017-01-27" to="2017-01-27">
+          <title>Friday</title>
+          <body>&lt;strong&gt;Trøndelag:&lt;/strong&gt; Søraust eller skiftende bris. For det meste pent vær.</body>
+        </time>
+      </location>
+    </text>
+    <tabular>
+      <time from="2017-01-25T08:00:00" to="2017-01-25T09:00:00">
+        <!-- Valid from 2017-01-25T08:00:00 to 2017-01-25T09:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.92" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-25T08:00:00 -->
+        <windDirection deg="202.5" code="SSW" name="South-southwest" />
+        <windSpeed mps="3.1" name="Light breeze" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="1010.8" />
+      </time>
+      <time from="2017-01-25T09:00:00" to="2017-01-25T10:00:00">
+        <!-- Valid from 2017-01-25T09:00:00 to 2017-01-25T10:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.92" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-25T09:00:00 -->
+        <windDirection deg="208.9" code="SSW" name="South-southwest" />
+        <windSpeed mps="2.4" name="Light breeze" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="1011.0" />
+      </time>
+      <time from="2017-01-25T10:00:00" to="2017-01-25T11:00:00">
+        <!-- Valid from 2017-01-25T10:00:00 to 2017-01-25T11:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-25T10:00:00 -->
+        <windDirection deg="206.4" code="SSW" name="South-southwest" />
+        <windSpeed mps="1.3" name="Light air" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="1011.4" />
+      </time>
+      <time from="2017-01-25T11:00:00" to="2017-01-25T12:00:00">
+        <!-- Valid from 2017-01-25T11:00:00 to 2017-01-25T12:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-25T11:00:00 -->
+        <windDirection deg="209.4" code="SSW" name="South-southwest" />
+        <windSpeed mps="2.1" name="Light breeze" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="1011.5" />
+      </time>
+      <time from="2017-01-25T12:00:00" to="2017-01-25T13:00:00">
+        <!-- Valid from 2017-01-25T12:00:00 to 2017-01-25T13:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-25T12:00:00 -->
+        <windDirection deg="224.0" code="SW" name="Southwest" />
+        <windSpeed mps="2.0" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1011.6" />
+      </time>
+      <time from="2017-01-25T13:00:00" to="2017-01-25T14:00:00">
+        <!-- Valid from 2017-01-25T13:00:00 to 2017-01-25T14:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-25T13:00:00 -->
+        <windDirection deg="220.6" code="SW" name="Southwest" />
+        <windSpeed mps="1.5" name="Light air" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1011.4" />
+      </time>
+      <time from="2017-01-25T14:00:00" to="2017-01-25T15:00:00">
+        <!-- Valid from 2017-01-25T14:00:00 to 2017-01-25T15:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-25T14:00:00 -->
+        <windDirection deg="216.1" code="SW" name="Southwest" />
+        <windSpeed mps="1.8" name="Light breeze" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1011.3" />
+      </time>
+      <time from="2017-01-25T15:00:00" to="2017-01-25T16:00:00">
+        <!-- Valid from 2017-01-25T15:00:00 to 2017-01-25T16:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-25T15:00:00 -->
+        <windDirection deg="197.4" code="SSW" name="South-southwest" />
+        <windSpeed mps="2.3" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1011.1" />
+      </time>
+      <time from="2017-01-25T16:00:00" to="2017-01-25T17:00:00">
+        <!-- Valid from 2017-01-25T16:00:00 to 2017-01-25T17:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.92" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-25T16:00:00 -->
+        <windDirection deg="198.0" code="SSW" name="South-southwest" />
+        <windSpeed mps="2.3" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1011.0" />
+      </time>
+      <time from="2017-01-25T17:00:00" to="2017-01-25T18:00:00">
+        <!-- Valid from 2017-01-25T17:00:00 to 2017-01-25T18:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-25T17:00:00 -->
+        <windDirection deg="197.1" code="SSW" name="South-southwest" />
+        <windSpeed mps="2.5" name="Light breeze" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="1011.1" />
+      </time>
+      <time from="2017-01-25T18:00:00" to="2017-01-25T19:00:00">
+        <!-- Valid from 2017-01-25T18:00:00 to 2017-01-25T19:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.92" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-25T18:00:00 -->
+        <windDirection deg="203.8" code="SSW" name="South-southwest" />
+        <windSpeed mps="3.7" name="Gentle breeze" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="1010.9" />
+      </time>
+      <time from="2017-01-25T19:00:00" to="2017-01-25T20:00:00">
+        <!-- Valid from 2017-01-25T19:00:00 to 2017-01-25T20:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.92" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-25T19:00:00 -->
+        <windDirection deg="200.4" code="SSW" name="South-southwest" />
+        <windSpeed mps="2.7" name="Light breeze" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="1011.0" />
+      </time>
+      <time from="2017-01-25T20:00:00" to="2017-01-25T21:00:00">
+        <!-- Valid from 2017-01-25T20:00:00 to 2017-01-25T21:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.92" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-25T20:00:00 -->
+        <windDirection deg="198.6" code="SSW" name="South-southwest" />
+        <windSpeed mps="2.9" name="Light breeze" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="1011.0" />
+      </time>
+      <time from="2017-01-25T21:00:00" to="2017-01-25T22:00:00">
+        <!-- Valid from 2017-01-25T21:00:00 to 2017-01-25T22:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.92" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-25T21:00:00 -->
+        <windDirection deg="199.6" code="SSW" name="South-southwest" />
+        <windSpeed mps="2.7" name="Light breeze" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="1011.1" />
+      </time>
+      <time from="2017-01-25T22:00:00" to="2017-01-25T23:00:00">
+        <!-- Valid from 2017-01-25T22:00:00 to 2017-01-25T23:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-25T22:00:00 -->
+        <windDirection deg="204.9" code="SSW" name="South-southwest" />
+        <windSpeed mps="2.6" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1011.3" />
+      </time>
+      <time from="2017-01-25T23:00:00" to="2017-01-26T00:00:00">
+        <!-- Valid from 2017-01-25T23:00:00 to 2017-01-26T00:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-25T23:00:00 -->
+        <windDirection deg="217.0" code="SW" name="Southwest" />
+        <windSpeed mps="3.2" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1011.7" />
+      </time>
+      <time from="2017-01-26T00:00:00" to="2017-01-26T01:00:00">
+        <!-- Valid from 2017-01-26T00:00:00 to 2017-01-26T01:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T00:00:00 -->
+        <windDirection deg="219.3" code="SW" name="Southwest" />
+        <windSpeed mps="3.0" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1012.1" />
+      </time>
+      <time from="2017-01-26T01:00:00" to="2017-01-26T02:00:00">
+        <!-- Valid from 2017-01-26T01:00:00 to 2017-01-26T02:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T01:00:00 -->
+        <windDirection deg="227.6" code="SW" name="Southwest" />
+        <windSpeed mps="2.9" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1012.6" />
+      </time>
+      <time from="2017-01-26T02:00:00" to="2017-01-26T03:00:00">
+        <!-- Valid from 2017-01-26T02:00:00 to 2017-01-26T03:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T02:00:00 -->
+        <windDirection deg="227.2" code="SW" name="Southwest" />
+        <windSpeed mps="2.8" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1012.7" />
+      </time>
+      <time from="2017-01-26T03:00:00" to="2017-01-26T04:00:00">
+        <!-- Valid from 2017-01-26T03:00:00 to 2017-01-26T04:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T03:00:00 -->
+        <windDirection deg="229.3" code="SW" name="Southwest" />
+        <windSpeed mps="2.5" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1013.1" />
+      </time>
+      <time from="2017-01-26T04:00:00" to="2017-01-26T05:00:00">
+        <!-- Valid from 2017-01-26T04:00:00 to 2017-01-26T05:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T04:00:00 -->
+        <windDirection deg="219.4" code="SW" name="Southwest" />
+        <windSpeed mps="2.4" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1013.4" />
+      </time>
+      <time from="2017-01-26T05:00:00" to="2017-01-26T06:00:00">
+        <!-- Valid from 2017-01-26T05:00:00 to 2017-01-26T06:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T05:00:00 -->
+        <windDirection deg="216.1" code="SW" name="Southwest" />
+        <windSpeed mps="2.6" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1013.9" />
+      </time>
+      <time from="2017-01-26T06:00:00" to="2017-01-26T07:00:00">
+        <!-- Valid from 2017-01-26T06:00:00 to 2017-01-26T07:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="0.1" />
+        <!-- Valid at 2017-01-26T06:00:00 -->
+        <windDirection deg="222.0" code="SW" name="Southwest" />
+        <windSpeed mps="3.0" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1014.5" />
+      </time>
+      <time from="2017-01-26T07:00:00" to="2017-01-26T08:00:00">
+        <!-- Valid from 2017-01-26T07:00:00 to 2017-01-26T08:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T07:00:00 -->
+        <windDirection deg="230.5" code="SW" name="Southwest" />
+        <windSpeed mps="3.0" name="Light breeze" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1014.7" />
+      </time>
+      <time from="2017-01-26T08:00:00" to="2017-01-26T09:00:00">
+        <!-- Valid from 2017-01-26T08:00:00 to 2017-01-26T09:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T08:00:00 -->
+        <windDirection deg="229.4" code="SW" name="Southwest" />
+        <windSpeed mps="1.3" name="Light air" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1015.3" />
+      </time>
+      <time from="2017-01-26T09:00:00" to="2017-01-26T10:00:00">
+        <!-- Valid from 2017-01-26T09:00:00 to 2017-01-26T10:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T09:00:00 -->
+        <windDirection deg="160.6" code="SSE" name="South-southeast" />
+        <windSpeed mps="1.6" name="Light breeze" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1016.2" />
+      </time>
+      <time from="2017-01-26T10:00:00" to="2017-01-26T11:00:00">
+        <!-- Valid from 2017-01-26T10:00:00 to 2017-01-26T11:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T10:00:00 -->
+        <windDirection deg="196.8" code="SSW" name="South-southwest" />
+        <windSpeed mps="1.7" name="Light breeze" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1017.0" />
+      </time>
+      <time from="2017-01-26T11:00:00" to="2017-01-26T12:00:00">
+        <!-- Valid from 2017-01-26T11:00:00 to 2017-01-26T12:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T11:00:00 -->
+        <windDirection deg="220.6" code="SW" name="Southwest" />
+        <windSpeed mps="1.6" name="Light breeze" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1017.4" />
+      </time>
+      <time from="2017-01-26T12:00:00" to="2017-01-26T13:00:00">
+        <!-- Valid from 2017-01-26T12:00:00 to 2017-01-26T13:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T12:00:00 -->
+        <windDirection deg="256.3" code="WSW" name="West-southwest" />
+        <windSpeed mps="1.2" name="Light air" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1017.8" />
+      </time>
+      <time from="2017-01-26T13:00:00" to="2017-01-26T14:00:00">
+        <!-- Valid from 2017-01-26T13:00:00 to 2017-01-26T14:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T13:00:00 -->
+        <windDirection deg="292.1" code="WNW" name="West-northwest" />
+        <windSpeed mps="0.6" name="Light air" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1018.2" />
+      </time>
+      <time from="2017-01-26T14:00:00" to="2017-01-26T15:00:00">
+        <!-- Valid from 2017-01-26T14:00:00 to 2017-01-26T15:00:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T14:00:00 -->
+        <windDirection deg="242.1" code="WSW" name="West-southwest" />
+        <windSpeed mps="0.6" name="Light air" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1018.4" />
+      </time>
+      <time from="2017-01-26T15:00:00" to="2017-01-26T16:00:00">
+        <!-- Valid from 2017-01-26T15:00:00 to 2017-01-26T16:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T15:00:00 -->
+        <windDirection deg="224.7" code="SW" name="Southwest" />
+        <windSpeed mps="1.3" name="Light air" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="1018.7" />
+      </time>
+      <time from="2017-01-26T16:00:00" to="2017-01-26T17:00:00">
+        <!-- Valid from 2017-01-26T16:00:00 to 2017-01-26T17:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.95" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T16:00:00 -->
+        <windDirection deg="240.9" code="WSW" name="West-southwest" />
+        <windSpeed mps="1.7" name="Light breeze" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1019.2" />
+      </time>
+      <time from="2017-01-26T17:00:00" to="2017-01-26T18:00:00">
+        <!-- Valid from 2017-01-26T17:00:00 to 2017-01-26T18:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.95" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T17:00:00 -->
+        <windDirection deg="254.0" code="WSW" name="West-southwest" />
+        <windSpeed mps="1.5" name="Light air" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="1019.8" />
+      </time>
+      <time from="2017-01-26T18:00:00" to="2017-01-26T19:00:00">
+        <!-- Valid from 2017-01-26T18:00:00 to 2017-01-26T19:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.95" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T18:00:00 -->
+        <windDirection deg="237.1" code="WSW" name="West-southwest" />
+        <windSpeed mps="1.5" name="Light air" />
+        <temperature unit="celsius" value="4" />
+        <pressure unit="hPa" value="1020.2" />
+      </time>
+      <time from="2017-01-26T19:00:00" to="2017-01-26T20:00:00">
+        <!-- Valid from 2017-01-26T19:00:00 to 2017-01-26T20:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.95" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T19:00:00 -->
+        <windDirection deg="218.3" code="SW" name="Southwest" />
+        <windSpeed mps="2.3" name="Light breeze" />
+        <temperature unit="celsius" value="4" />
+        <pressure unit="hPa" value="1020.2" />
+      </time>
+      <time from="2017-01-26T20:00:00" to="2017-01-26T21:00:00">
+        <!-- Valid from 2017-01-26T20:00:00 to 2017-01-26T21:00:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.95" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T20:00:00 -->
+        <windDirection deg="216.9" code="SW" name="Southwest" />
+        <windSpeed mps="3.1" name="Light breeze" />
+        <temperature unit="celsius" value="3" />
+        <pressure unit="hPa" value="1020.1" />
+      </time>
+      <time from="2017-01-26T21:00:00" to="2017-01-26T22:00:00">
+        <!-- Valid from 2017-01-26T21:00:00 to 2017-01-26T22:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.95" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T21:00:00 -->
+        <windDirection deg="216.5" code="SW" name="Southwest" />
+        <windSpeed mps="2.8" name="Light breeze" />
+        <temperature unit="celsius" value="3" />
+        <pressure unit="hPa" value="1020.2" />
+      </time>
+      <time from="2017-01-26T22:00:00" to="2017-01-26T23:00:00">
+        <!-- Valid from 2017-01-26T22:00:00 to 2017-01-26T23:00:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="mf/02n.95" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T22:00:00 -->
+        <windDirection deg="209.1" code="SSW" name="South-southwest" />
+        <windSpeed mps="2.8" name="Light breeze" />
+        <temperature unit="celsius" value="3" />
+        <pressure unit="hPa" value="1020.4" />
+      </time>
+      <time from="2017-01-26T23:00:00" to="2017-01-27T00:00:00">
+        <!-- Valid from 2017-01-26T23:00:00 to 2017-01-27T00:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.95" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-26T23:00:00 -->
+        <windDirection deg="204.4" code="SSW" name="South-southwest" />
+        <windSpeed mps="2.4" name="Light breeze" />
+        <temperature unit="celsius" value="3" />
+        <pressure unit="hPa" value="1020.5" />
+      </time>
+      <time from="2017-01-27T00:00:00" to="2017-01-27T01:00:00">
+        <!-- Valid from 2017-01-27T00:00:00 to 2017-01-27T01:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.99" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-27T00:00:00 -->
+        <windDirection deg="202.4" code="SSW" name="South-southwest" />
+        <windSpeed mps="1.7" name="Light breeze" />
+        <temperature unit="celsius" value="2" />
+        <pressure unit="hPa" value="1020.7" />
+      </time>
+      <time from="2017-01-27T01:00:00" to="2017-01-27T02:00:00">
+        <!-- Valid from 2017-01-27T01:00:00 to 2017-01-27T02:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.99" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-27T01:00:00 -->
+        <windDirection deg="211.6" code="SSW" name="South-southwest" />
+        <windSpeed mps="2.2" name="Light breeze" />
+        <temperature unit="celsius" value="2" />
+        <pressure unit="hPa" value="1020.5" />
+      </time>
+      <time from="2017-01-27T02:00:00" to="2017-01-27T03:00:00">
+        <!-- Valid from 2017-01-27T02:00:00 to 2017-01-27T03:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.99" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-27T02:00:00 -->
+        <windDirection deg="209.8" code="SSW" name="South-southwest" />
+        <windSpeed mps="2.1" name="Light breeze" />
+        <temperature unit="celsius" value="2" />
+        <pressure unit="hPa" value="1020.1" />
+      </time>
+      <time from="2017-01-27T03:00:00" to="2017-01-27T04:00:00">
+        <!-- Valid from 2017-01-27T03:00:00 to 2017-01-27T04:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.99" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-27T03:00:00 -->
+        <windDirection deg="199.6" code="SSW" name="South-southwest" />
+        <windSpeed mps="2.1" name="Light breeze" />
+        <temperature unit="celsius" value="2" />
+        <pressure unit="hPa" value="1019.6" />
+      </time>
+      <time from="2017-01-27T04:00:00" to="2017-01-27T05:00:00">
+        <!-- Valid from 2017-01-27T04:00:00 to 2017-01-27T05:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.99" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-27T04:00:00 -->
+        <windDirection deg="195.1" code="SSW" name="South-southwest" />
+        <windSpeed mps="1.6" name="Light breeze" />
+        <temperature unit="celsius" value="1" />
+        <pressure unit="hPa" value="1019.2" />
+      </time>
+      <time from="2017-01-27T05:00:00" to="2017-01-27T06:00:00">
+        <!-- Valid from 2017-01-27T05:00:00 to 2017-01-27T06:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.99" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-27T05:00:00 -->
+        <windDirection deg="200.6" code="SSW" name="South-southwest" />
+        <windSpeed mps="1.5" name="Light air" />
+        <temperature unit="celsius" value="1" />
+        <pressure unit="hPa" value="1018.7" />
+      </time>
+      <time from="2017-01-27T06:00:00" to="2017-01-27T07:00:00">
+        <!-- Valid from 2017-01-27T06:00:00 to 2017-01-27T07:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.99" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-27T06:00:00 -->
+        <windDirection deg="210.8" code="SSW" name="South-southwest" />
+        <windSpeed mps="1.1" name="Light air" />
+        <temperature unit="celsius" value="1" />
+        <pressure unit="hPa" value="1018.4" />
+      </time>
+      <time from="2017-01-27T07:00:00" to="2017-01-27T08:00:00">
+        <!-- Valid from 2017-01-27T07:00:00 to 2017-01-27T08:00:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.99" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-01-27T07:00:00 -->
+        <windDirection deg="250.0" code="WSW" name="West-southwest" />
+        <windSpeed mps="0.8" name="Light air" />
+        <temperature unit="celsius" value="2" />
+        <pressure unit="hPa" value="1018.2" />
+      </time>
+    </tabular>
+  </forecast>
+  <observations>
+    <weatherstation stno="68860" sttype="eklima" name="Trondheim (Voll)" distance="3659" lat="63.41070" lon="10.45380" source="Meteorologisk Institutt">
+      <symbol number="4" name="Cloudy" time="2017-01-25T06:00:00Z" />
+      <temperature unit="celsius" value="7.2" time="2017-01-25T06:00:00Z" />
+      <windDirection deg="222.0" code="SW" name="Southwest" time="2017-01-25T06:00:00Z" />
+      <windSpeed mps="1.8" name="Light breeze" time="2017-01-25T06:00:00Z" />
+    </weatherstation>
+    <weatherstation stno="67140" sttype="eklima" name="Skjetlein" distance="11151" lat="63.34030" lon="10.29730" source="Meteorologisk Institutt">
+      <temperature unit="celsius" value="7.2" time="2017-01-25T05:00:00Z" />
+    </weatherstation>
+    <weatherstation stno="69655" sttype="eklima" name="Frosta" distance="21126" lat="63.56570" lon="10.69400" source="Meteorologisk Institutt">
+      <temperature unit="celsius" value="6.0" time="2017-01-25T06:00:00Z" />
+    </weatherstation>
+  </observations>
+</weatherdata>
