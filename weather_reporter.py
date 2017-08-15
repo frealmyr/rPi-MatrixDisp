@@ -28,7 +28,7 @@ def threehourforecase(grab_weather):
         print(nextsixhours)
 
         with open('export.xml', 'rt') as wreport: # Scanning XML file for search string, and returns values from weather data
-            xml = etree.parse(wreport)
+        xml = etree.parse(wreport)
 	    for record in xml.iter('time'):
                 if record.attrib['from'] == nexthour:
                     for temp in record.iter('temperature'):
